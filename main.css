@@ -58,12 +58,31 @@
     margin: 0;
     padding: 0.5rem;
   }
-
+/*all paragraphs*/
   p{
     margin: 0;
     padding: 0.5rem;
   }
-  
+
+  .list-of-tech{
+    width: 100%;
+    height: auto;
+  }
+  /*image wrappers*/
+  .tech-imgs{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+  }
+/*tech images*/
+.img{
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+
   nav,
   footer {
     width: 100%;
