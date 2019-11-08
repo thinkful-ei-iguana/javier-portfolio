@@ -1,37 +1,86 @@
 <html lang="en">
+
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-    <nav role="navigation">Nav</nav>
-    <main role="main">
+
+    <div id="nav-wrapper">
         <header role="banner">
-            <h1>Hero</h1>
+            <div id="name-and-title">
+                <h1>Javier Zapien</h1>
+                <h2>Full Stack Web Developer</h2>
+            </div>
         </header>
+        <nav role="navigation">
+            <div class="nav-links-wrapper">
+                <span><a href="#">Home</a></span>
+                <span><a href="#">Projects</a></span>
+                <span><a href="#">Contact</a></span>
+            </div>
+        </nav>
+    </div>
+    <main role="main">
+        <div id="main-wrapper">
+            <div class="box-1">
+                <section>
+                    <h3 class="about-me">ABOUT ME</h3>
+                    <p class="about-me-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ipsa
+                        suscipit asperiores quia natus dolorum, est libero repellendus explicabo? Facilis similique,
+                        explicabo voluptatem fuga magni at doloribus voluptates corrupti, cum ullam commodi laudantium
+                        animi culpa? Iure blanditiis eos culpa expedita.</p>
+                    <p>perosonal: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est corrupti unde
+                        dignissimos animi doloremque delectus impedit. Sint at suscipit molestiae!</p>
+                </section>
+            </div>
+            <div class="box-2">
+                <section class="nested-box-2">
+                    <div class="project-img1">
+    
+                    </div>
+                    <div class="project-description">
+                        <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic sit dicta
+                            non aspernatur, ut modi.</p>
+                        <p>stack: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iure corporis
+                            tempore dolorum, ducimus quibusdam accusantium!</p>
+                    </div>
+                </section>
+            </div>
+            <div class="box-3">
+                <section class="nested-box-3">
+                    <div class="project-img2">
+                        <!-- <img src="./imgs/Screen Shot 2019-07-09 at 8.43.20 AM.png"> -->
+                    </div>
+                    <div class="project-description">
+                        <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic sit dicta
+                            non aspernatur, ut modi.</p>
+                        <p>stack: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iure corporis
+                            tempore dolorum, ducimus quibusdam accusantium!</p>
+                    </div>
+                </section>
+            </div>
 
-        <section>
-            Section 1
-        </section>
-
-        <section>
-            Section 2
-        </section>
-
-        <section>
-            Section 3
-        </section>
-
-        <section>
-            Project 3
-        </section>
-        
-        <section>
-            Section 4
-        </section>
+            <div class="box-4">
+                <section class="nested-box-4">
+                    <div class="tech-title"">
+                          <p>technologies i have worked with</p>
+                    </div>
+                    <div class="list-of-tect">
+                        <span>JQuery img</span>
+                        <span>React img</span>
+                        <span>RESTful API </span>
+                        <span>NodeJS</span>
+                        <span>MongoDB</span>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
     <footer role="content-info">Footer</footer>
 </body>
+
 </html>
