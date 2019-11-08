@@ -41,7 +41,7 @@
     padding: 0.5rem;
     background-color: #bbb;
   }
-  
+  /*all images*/
   img{
     display: block;
     width: 100%;
@@ -55,6 +55,11 @@
   }
 
   .about-me,.about-me-para{
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  p{
     margin: 0;
     padding: 0.5rem;
   }
