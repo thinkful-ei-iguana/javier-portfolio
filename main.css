@@ -23,6 +23,7 @@ a:hover{
 }
 
   header,nav{
+    width:100%;
     background: rgba(76,76,76,1);
 background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
@@ -49,6 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
   }
   .type-box{
     width: 500px;
+    word-wrap: break-word;
     margin: auto;
   }
   
@@ -96,11 +98,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
      top: 0;
      left:0;
      background: rgba(249, 249, 249, 0.372);
-    z-index: 1;
+     z-index: 1;
 }
 /*main content wrapper aboubt me and projects*/
 
   #main-wrapper{
+    width:100%;
     position: relative;
     z-index: 2;
     display: grid;
@@ -121,12 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     height: auto;
     object-fit: contain;
   }
-
-
-  .project-img1,.project-img2,.project-description{
-    border: 1px solid black;
-  }
-
+  /*about me*/
   .about-me,.about-me-para{
     margin: 0;
     padding: 0.5rem;
@@ -136,7 +134,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     margin: 0;
     padding: 0.5rem;
   }
-
+/*box four pics of tech*/
   .list-of-tech{
     width: 100%;
     height: auto;
@@ -151,7 +149,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .img{
   width: 100%;
   height: auto;
-  border: 1px solid black;
   border-radius: 50%;
 }
 
@@ -162,3 +159,16 @@ footer {
     border: 1px solid green;
   }
   
+
+  @media (max-width: 1220px){
+    #main-wrapper{
+      display: grid;
+     grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768){
+h1, h2{
+  font-size: 1rem;
+    }
+  }
