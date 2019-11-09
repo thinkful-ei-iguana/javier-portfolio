@@ -202,8 +202,44 @@ h3{
       width: 100px;
       height: 100px;
     }
-    .tect-text{
+    .tech-text{
       font-size: 1.3rem;
     }
 
+  }
+
+  @media (max-width: 500px){
+    p{
+      font-size: 0.8rem;
+    }
+    .tech-text{
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 375px){
+    .type-text{
+      font-size: 10px;
+      width: 200px
+    }
+    .type-box{
+      text-align: center;
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 320px){
+    .type-text{
+      font-size: 10px;
+      width: 200px
+    }
+    .type-box{
+      text-align: center;
+      width: 200px;
+    }
+
+    .tech-imgs{
+      width: 75px;
+      height: 75px;
+    }
   }
