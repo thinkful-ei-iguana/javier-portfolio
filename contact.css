@@ -101,6 +101,11 @@ a:hover {
 
 }
 
+h2 > a {
+    color: grey;
+}
+
+
 footer {
     border-top: 2px solid black;
 }
