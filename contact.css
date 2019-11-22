@@ -126,35 +126,3 @@ footer {
     }
 }
 
-/* @media (max-width: 700px){
-    h1,h2{
-        font-size: 1.5rem;
-    }
-    .links{
-        font-size: 1.5rem;
-    }
-    span{
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 425px){
-    h1,h2{
-        font-size: 1.2rem;
-    }
-    .links{
-        font-size: 1.2rem;
-    }
-    span{
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 375px){
-    h1,h2{
-        font-size: 0.8rem;
-    }
-    .links{
-        font-size: 0.8rem;
-    }
-} */
