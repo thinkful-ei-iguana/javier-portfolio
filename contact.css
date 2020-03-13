@@ -68,7 +68,7 @@ a:hover {
     padding: 0;
     width: 100%;
     min-height: 700px;
-    background: url("./imgs/coding.png");
+    /* background: url("./imgs/coding.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
