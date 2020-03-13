@@ -135,6 +135,10 @@ a:hover{
     padding: 0.5rem;
     background-color: #000000ac;
   }
+
+  .project-description{
+    text-align: left;
+  }
   /*TITLE DESCRIP STACK AND LINKS COLOR */
   .tdsl{
     color: rgb(255, 135, 79);

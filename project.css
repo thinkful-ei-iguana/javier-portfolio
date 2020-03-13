@@ -124,6 +124,10 @@ a:hover {
   background-color: #000000ac;
 }
 
+.project-description{
+  text-align: left;
+}
+
 /*need to change image size as it breaks screen*/
 .project-img1,
 .project-img2 {
