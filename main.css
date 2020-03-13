@@ -75,7 +75,7 @@ a:hover{
       padding: 0;
       width: 100%;
       height: auto;
-      background: url("./imgs/office.png");
+      /* background: url("./imgs/office.png"); */
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -100,7 +100,7 @@ a:hover{
     padding: 0;
     width: 100%;
     height: auto;
-    background: url("./imgs/coding.png");
+    /* background: url("./imgs/coding.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
