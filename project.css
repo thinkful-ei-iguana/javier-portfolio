@@ -148,7 +148,7 @@ img {
 .tdsl {
   margin: 0;
   color: grey;
-  background: #666666;
+  background: #000000ac;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
