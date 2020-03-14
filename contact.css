@@ -92,7 +92,7 @@ a:hover {
     margin: auto;
     position: relative;
     z-index: 2;
-    color: rgb(255, 135, 79);
+    color: grey;
     background: #666666;
     -webkit-background-clip: text;
     -moz-background-clip: text;

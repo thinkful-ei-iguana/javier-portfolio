@@ -147,7 +147,7 @@ img {
 /*title descrip stack links*/
 .tdsl {
   margin: 0;
-  color: rgb(255, 135, 79);
+  color: grey;
   background: #666666;
   -webkit-background-clip: text;
   -moz-background-clip: text;

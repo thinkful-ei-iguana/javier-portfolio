@@ -143,8 +143,8 @@ a:hover{
   /*TITLE DESCRIP STACK AND LINKS COLOR */
   .tdsl{
     margin: 0;
-    color: rgb(255, 135, 79);
-background: #666666;
+    color: grey;
+background: #000000ac;
 -webkit-background-clip: text;
 -moz-background-clip: text;
 background-clip: text;
