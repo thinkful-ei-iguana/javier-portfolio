@@ -45,7 +45,7 @@ a:hover {
     position: relative;
 }
 
-.nav-wrapper::after {
+/* .nav-wrapper::after {
     color: #000000ac;
     width: 100%;
     height: 100%;
@@ -55,7 +55,7 @@ a:hover {
     left: 0;
     background: #000000ac;
     z-index: 1;
-}
+} */
 
 .img-wrapper {
     position: relative;
@@ -75,7 +75,7 @@ a:hover {
     position: relative;
 }
 
-.contact-wrapper::after {
+/* .contact-wrapper::after {
     color: #000000ac;
     width: 100%;
     height: 100%;
@@ -85,7 +85,7 @@ a:hover {
     left: 0;
     background: #000000ac;
     z-index: 1;
-}
+} */
 
 .links{
     padding: 1rem;
